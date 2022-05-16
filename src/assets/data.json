@@ -1,0 +1,54 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    "title": "Seneca College",
+    "program": "Computer Programmer",
+    "type": "Diploma",
+    "date":"2020 - 2021",
+    "GPA": "3.9",
+    "description" : [ "Computer programming", "Operating systems", "Database and web technology", "Data communication",
+      "Security","Advanced programming languages", "System methodologies", "Internet client and server-side development",
+      "Database system design and maintenance", "Solve problems associated with software installation" ]
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://vspu.ru/sites/default/files/pixture_reloaded_logo.png",
+    "title": "Volgograd State Pedagogical University",
+    "program": "Physics and Informatics",
+    "type": "Master of Science in Computer Science and Physics",
+    "date": "2001 - 2006",
+    "GPA": "3.71",
+    "description": ["Programming",
+      "Theoretical foundations of computer science",
+      "Computer architecture",
+      "Computer science teaching methodology",
+      "Computer modelling",
+      "Computing systems, networks and telecommunications",
+      "Information Technology",
+      "High Level Programming Techniques",
+      "Information systems design",
+      "Intelligent information systems",
+      "Database",
+      "Information Systems",
+      "Astronomy",
+      "Astrophysics",
+      "Mathematical models in natural science",
+      "Astrophysics methods",
+      "General and experimental physics",
+      "Electrical engineering",
+      "Electronic engineering",
+      "Physics"]
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://www.vstu.ru/bitrix/templates/mfrog_en/images/logo.png",
+    "title": "Volgograd State Technical University",
+    "program" : "Marketing",
+    "type": "Master’s degree in Marketing",
+    "date": "2006 - 2007",
+    "GPA": "3.71",
+    "description": ["Marketing communications", "Selling", "Strategies and analysis", "Web design", "Research and channel management", "Promotional campaigns", "Packaging and distribution of products"]
+
+  }
+]

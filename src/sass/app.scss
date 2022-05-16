@@ -1,7 +1,27 @@
-@import './abstract/fonts.scss';
-@import './abstract/variables';
+
 @import 'libs/normalize';
-@import 'components/all';
+@import './abstract/constant';
+@import './abstract/placeholder';
+@import './abstract/mixins';
+//base
+@import './base/base';
+@import './base/buttons';
+@import './base/logo';
+@import './base/icons';
+@import './base/tags';
+@import './base/hamburger';
+@import './base/modal';
+//layout
+@import './layouts/wrapper';
+@import './layouts/header';
+@import './layouts/columns';
+@import './layouts/footer';
+
+//components
+@import './components/all';
+
+
+
 
 
 body{
@@ -12,4 +32,9 @@ body{
 .promo__image{
   width: 325px;
   height: 429px;
+}
+
+.logo-uni{
+  width: 8%;
+  height: 8%;
 }
