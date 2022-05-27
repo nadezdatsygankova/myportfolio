@@ -1,16 +1,13 @@
-.layout-4-column {
-  @include columns($width: 21%);
-}
-
-.layout-3-column {
-  @include columns($width: 30%);
-  &:after {
-    content: '';
-    width: 30%;
-    display: block;
+.footer {
+  padding: 60px 0 70px;
+  @include media-mobile {
+    padding: 31px 0;
   }
 }
 
-.layout-2-column {
-  @include columns($width: 48%);
+.footer__wrapper {
+  display: flex;
+  @include media-tablet {
+    flex-direction: column;
+  }
 }

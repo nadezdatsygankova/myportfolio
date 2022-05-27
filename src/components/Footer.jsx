@@ -1,44 +1,19 @@
-function Footer(){
+import logo from '../assets/img/logo.png';
+import logo2 from '../assets/img/logo2.png';
+import logoBlue from '../assets/img/logoBlue.png';
+
+function Footer() {
   return (
-    <footer class="footer">
-    <div class="wrapper footer__wrapper">
-        <a href="#" class="logo">
-            <object type="image/svg+xml" data="./src/img/logo.svg" class="logo-object">
-                Your browser does not support SVG
-            </object>
-        </a>
-        <div class="footer-navigation layout-3-column">
-            <div class="footer-navigation__column">
-                <h4 class="footer-navigation__title">Quick Links</h4>
-                <ul class="footer-navigation__links">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="footer-navigation__column">
-                <h4 class="footer-navigation__title">Legal Stuff</h4>
-                <ul class="footer-navigation__links">
-                    <li><a href="#">Disclaimer</a></li>
-                    <li><a href="#">Financing</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                </ul>
-            </div>
-            <div class="footer-navigation__column">
-                <h4 class="footer-navigation__title">Quick Links</h4>
-                <ul class="footer-navigation__links">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <footer>
+    <a href="mailto:tsygankovanadian@gmail.com" class="footer__link">tsygankovanadian@gmail.com</a>
+    <ul class="social-list">
+        <li class="social-list__item"><a class="social-list__link" href="https://codepen.io">a</a></li>
+        <li class="social-list__item">b<a class="social-list__link" href="http://dribbble.com"></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/nadezdatsygankova/">c</a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://github.com/nadezdatsygankova"d></a></li>
+    </ul>
 </footer>
-  )
+  );
 }
 
 export default Footer;

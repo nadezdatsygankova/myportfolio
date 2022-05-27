@@ -2,45 +2,95 @@ html {
   font-size: 10px;
 }
 
-body {
-  @extend %font-prim;
-  @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+// body {
+//   @extend %font-prim;
+//   @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+// }
+
+// h1 {
+//   @extend %font-add;
+//   @include font($height: 5.4rem, $size: 4.4rem);
+//   @include media-mobile {
+//     @include font($height: 4.2rem, $size: 3.2rem);
+//   }
+// }
+
+// h2 {
+//   @include font($size: 3.4rem, $height: 4.6rem);
+//   @include media-mobile {
+//     @include font($height: 3.3rem, $size: 2.4rem);
+//   }
+// }
+
+// h3 {
+//   @include font($size: 2.4rem, $height: 3.4rem);
+//   @include media-mobile {
+//     @include font($height: 3.1rem, $size: 2.1rem);
+//   }
+// }
+
+// h4 {
+//   @include font($size: 2.2rem, $height: 3rem, $weight: 600);
+//   @include media-tablet {
+//     @include font($height: 3rem, $size: 2rem);
+//   }
+// }
+
+// h5 {
+//   @include font($size: 1.6rem, $height: 2.6rem);
+// }
+
+// .block-shadowed {
+//   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+//   border-radius: 10px;
+// }
+
+
+// new style
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
+
+
+// --fs-h1: 3rem;
+// --fs-h2: 2.25rem;
+// --fs-h3: 1.25rem;
+// --fs-body: 1rem;
+
+
+// --fw-reg: 300;
+// --fw-bold: 900;
 
 h1 {
   @extend %font-add;
-  @include font($height: 5.4rem, $size: 4.4rem);
-  @include media-mobile {
-    @include font($height: 4.2rem, $size: 3.2rem);
-  }
+  @include font($height: 5.4rem, $size: 3rem);
+  // @include media-mobile {
+  //   @include font($height: 4.2rem, $size: 3.2rem);
+  // }
 }
 
 h2 {
-  @include font($size: 3.4rem, $height: 4.6rem);
-  @include media-mobile {
-    @include font($height: 3.3rem, $size: 2.4rem);
-  }
+  @extend %font-add;
+  @include font($height: 5.4rem, $size: 2.25rem);
+  // @include media-mobile {
+  //   @include font($height: 4.2rem, $size: 3.2rem);
+  // }
 }
 
 h3 {
-  @include font($size: 2.4rem, $height: 3.4rem);
-  @include media-mobile {
-    @include font($height: 3.1rem, $size: 2.1rem);
-  }
+  @extend %font-add;
+  @include font($height: 5.4rem, $size: 1.25rem);
+  // @include media-mobile {
+  //   @include font($height: 4.2rem, $size: 3.2rem);
+  // }
 }
 
-h4 {
-  @include font($size: 2.2rem, $height: 3rem, $weight: 600);
-  @include media-tablet {
-    @include font($height: 3rem, $size: 2rem);
-  }
-}
-
-h5 {
-  @include font($size: 1.6rem, $height: 2.6rem);
-}
-
-.block-shadowed {
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
+body{
+  @extend %font-prim;
+  @include font($height: 5.4rem, $size: 1rem);
+  $color-background: $clr-light;
+  color: $clr-dark;
 }

@@ -5,12 +5,11 @@
 @import './abstract/mixins';
 //base
 @import './base/base';
-@import './base/buttons';
-@import './base/logo';
-@import './base/icons';
-@import './base/tags';
-@import './base/hamburger';
-@import './base/modal';
+// @import './base/buttons';
+// @import './base/logo';
+// @import './base/tags';
+// @import './base/hamburger';
+// @import './base/modal';
 //layout
 @import './layouts/wrapper';
 @import './layouts/header';
@@ -20,21 +19,3 @@
 //components
 @import './components/all';
 
-
-
-
-
-body{
-
-}
-
-
-.promo__image{
-  width: 325px;
-  height: 429px;
-}
-
-.logo-uni{
-  width: 8%;
-  height: 8%;
-}
