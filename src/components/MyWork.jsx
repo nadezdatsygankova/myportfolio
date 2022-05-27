@@ -1,18 +1,18 @@
-import photo1 from '../assets/img//work/1.jpeg';
-import photo2 from '../assets/img//work/2.jpeg';
-import photo3 from '../assets/img//work/3.jpeg';
-import photo4 from '../assets/img//work/4.jpeg';
-import photo5 from '../assets/img//work/5.jpeg';
-import photo6 from '../assets/img//work/6.jpeg';
-import photo7 from '../assets/img//work/7.jpeg';
-import photo8 from '../assets/img//work/8.jpeg';
+import photo1 from '../assets/img//work/1.jpg';
+import photo2 from '../assets/img//work/2.jpg';
+import photo3 from '../assets/img//work/3.jpg';
+import photo4 from '../assets/img//work/4.jpg';
+import photo5 from '../assets/img//work/5.jpg';
+import photo6 from '../assets/img//work/6.jpg';
+import photo7 from '../assets/img//work/7.jpg';
+import photo8 from '../assets/img//work/8.jpg';
 
 
 function MyWork() {
 return(
 <section className="my-work" id="work">
-            <h2 className="section__title">My work</h2>
-            <p className="section__subtitle"></p>
+            <h2 className="section__title section__title--work">My work</h2>
+            <p className="section__subtitle section__subtitle--work">A selection of my range of work</p>
 
             <div className="portfolio">
                 <a href="#" className="portfolio__item">

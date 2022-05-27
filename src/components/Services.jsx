@@ -10,7 +10,7 @@ function Services(){
         <Service />
         <Service />
     </div>
-    <a href="#work" class="btn">My Work</a>
+    <a href="#work" class="btn">See My Work</a>
 </section>
   )
 }

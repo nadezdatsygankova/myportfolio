@@ -2,50 +2,6 @@ html {
   font-size: 10px;
 }
 
-// body {
-//   @extend %font-prim;
-//   @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
-// }
-
-// h1 {
-//   @extend %font-add;
-//   @include font($height: 5.4rem, $size: 4.4rem);
-//   @include media-mobile {
-//     @include font($height: 4.2rem, $size: 3.2rem);
-//   }
-// }
-
-// h2 {
-//   @include font($size: 3.4rem, $height: 4.6rem);
-//   @include media-mobile {
-//     @include font($height: 3.3rem, $size: 2.4rem);
-//   }
-// }
-
-// h3 {
-//   @include font($size: 2.4rem, $height: 3.4rem);
-//   @include media-mobile {
-//     @include font($height: 3.1rem, $size: 2.1rem);
-//   }
-// }
-
-// h4 {
-//   @include font($size: 2.2rem, $height: 3rem, $weight: 600);
-//   @include media-tablet {
-//     @include font($height: 3rem, $size: 2rem);
-//   }
-// }
-
-// h5 {
-//   @include font($size: 1.6rem, $height: 2.6rem);
-// }
-
-// .block-shadowed {
-//   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-//   border-radius: 10px;
-// }
-
-
 // new style
 
 *,
@@ -64,33 +20,91 @@ html {
 // --fw-reg: 300;
 // --fw-bold: 900;
 
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+
+
 h1 {
-  @extend %font-add;
-  @include font($height: 5.4rem, $size: 3rem);
-  // @include media-mobile {
-  //   @include font($height: 4.2rem, $size: 3.2rem);
-  // }
+  // @extend %font-add;
+  @include font($size: 3rem);
+  @include media-tablet {
+    @include font( $size: 4.5rem);
+  }
 }
 
 h2 {
-  @extend %font-add;
-  @include font($height: 5.4rem, $size: 2.25rem);
-  // @include media-mobile {
-  //   @include font($height: 4.2rem, $size: 3.2rem);
-  // }
+  // @extend %font-add;
+  @include font( $size: 2.25rem);
+  @include media-tablet {
+    @include font( $size: 3.75rem);
+  }
 }
 
 h3 {
-  @extend %font-add;
-  @include font($height: 5.4rem, $size: 1.25rem);
-  // @include media-mobile {
-  //   @include font($height: 4.2rem, $size: 3.2rem);
-  // }
+  // @extend %font-add;
+  @include font( $size: 1.25rem);
+  @include media-tablet {
+    @include font( $size: 1.5rem);
+  }
 }
 
 body{
   @extend %font-prim;
-  @include font($height: 5.4rem, $size: 1rem);
+  @include font($size: 1rem, $height:1.6rem);
   $color-background: $clr-light;
   color: $clr-dark;
+  margin: 0;
+  @include media-tablet {
+    @include font( $size: 1.125rem);
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.section__title {
+  margin-bottom: .25em;
+  &--intro{
+    font-weight:$fw-reg;
+  }
+
+}
+
+
+.section__subtitle {
+  margin: 0;
+  @include font( $size: 1.25rem);
+  @include media-tablet {
+    @include font( $size: 1.5rem);
+  }
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+  background: $clr-accent;
+  @extend %font-add;
+  margin-bottom: 1em;
+  padding: 1em 1em;
+}
+
+.section__subtitle--intro {
+  display: inline-block;
+  @include font($size: 2rem, $weight: normal);
+  letter-spacing: 3.77px;
+}
+
+:focus {
+  outline: 3px solid $clr-accent;
+  outline-offset: 3px;
 }

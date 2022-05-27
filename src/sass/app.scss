@@ -5,10 +5,10 @@
 @import './abstract/mixins';
 //base
 @import './base/base';
-// @import './base/buttons';
+@import './base/buttons';
 // @import './base/logo';
 // @import './base/tags';
-// @import './base/hamburger';
+@import './base/hamburger';
 // @import './base/modal';
 //layout
 @import './layouts/wrapper';

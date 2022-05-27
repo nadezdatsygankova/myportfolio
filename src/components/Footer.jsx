@@ -4,13 +4,16 @@ import logoBlue from '../assets/img/logoBlue.png';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
     <a href="mailto:tsygankovanadian@gmail.com" class="footer__link">tsygankovanadian@gmail.com</a>
-    <ul class="social-list">
-        <li class="social-list__item"><a class="social-list__link" href="https://codepen.io">a</a></li>
-        <li class="social-list__item">b<a class="social-list__link" href="http://dribbble.com"></a></li>
-        <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/nadezdatsygankova/">c</a></li>
-        <li class="social-list__item"><a class="social-list__link" href="https://github.com/nadezdatsygankova"d></a></li>
+    <ul className="social-list">
+        <li className="social-list__item">
+          <a className="social-list__link" href="https://www.linkedin.com/in/nadezdatsygankova/">LinkedIn</a></li>
+        <li className="social-list__item">
+          <a className="social-list__link" href="https://github.com/nadezdatsygankova"> GitHub
+          </a></li>
+          <li className="social-list__item">
+          <a className="social-list__link" href="https://www.codewars.com/users/nadezdatsygankova">Codewars</a></li>
     </ul>
 </footer>
   );
